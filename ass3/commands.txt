@@ -1,0 +1,5 @@
+// https://webwerks.dl.sourceforge.net/project/mpjexpress/releases/mpj-v0_44.zip
+//rename
+export MPJ_HOME=$PWD/mpj
+javac -cp mpj/lib/mpj.jar Asign2.java   
+mpj/bin/mpjrun.sh -np 4 Asign2
